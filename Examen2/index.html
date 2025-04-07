@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Examen2</title>
+</head>
+<body>
+    <div class="menu-desplegable" id="menuDesplegable">
+        <div class="seleccionado" onclick="alternarMenu()">
+            <span id="itemSeleccionado">Selecciona un item</span>
+        </div>
+        <div class="lista-desplegable" id="listaDesplegable">
+            <div class="opcion" onclick="elegirItem('primero')">primero</div>
+            <div class="opcion" onclick="elegirItem('segundo')">segundo</div>
+            <div class="opcion" onclick="elegirItem('tercero')">tercero</div>
+            <div class="opcion" onclick="elegirItem('cuarto')">cuarto</div>
+            <div class="opcion" onclick="elegirItem('quinto')">quinto</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

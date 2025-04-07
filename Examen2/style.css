@@ -1,0 +1,30 @@
+.menu-desplegable {
+    width: 250px;
+    background-color: rgb(8, 236, 8);
+}
+
+.seleccionado { 
+    border: 1px solid gray;
+    padding: 5px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.lista-desplegable {
+    display: none;
+    border: 1px solid gray;
+    background-color: rgb(76, 236, 116);
+}
+
+.opcion {
+    padding: 15px;
+}
+
+.opcion:hover {
+    background-color: #eee;
+}
+
+.open .lista-desplegable {
+    display: block;
+}
+
